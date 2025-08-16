@@ -7,8 +7,8 @@ REM --- Set variables ---
 set STACK_NAME=MyEC2Stack
 set TEMPLATE_PATH=ec2-instance.yml
 set INSTANCE_TYPE=t2.micro
-set VPC_ID=vpc-053a62071d0fcebcc
-set SUBNET_ID=subnet-029a585c2f760361f
+set VPC_ID=vpc-053xxxxxxxxxxxxxx
+set SUBNET_ID=subnet-029xxxxxxxxxxxxxx
 
 REM --- Create CloudFormation stack ---
 aws cloudformation create-stack ^
